@@ -1,0 +1,156 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.u1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.login {
+  padding :20px;
+  border-radius: 99px;
+  background-color: #ff4c68;
+  font-weight: 800;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+  
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 1% 10% 1%;
+}
+
+
+#testimonials {
+  background:linear-gradient(transparent,rgba(241, 132, 113, 0.979));
+}
+
+
+.testimonial-text {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #fc556e;
+}
+
+.testimonial-image {
+  width: 33%;
+  border-radius: 100%;
+  margin: 20px;
+  transition: width 1s, height 1s;
+}
+.testimonial-image:hover {
+  width: 40%;
+}
+
+.basket_count {
+  font-weight: 700;
+  margin: 0 5px ;
+}
+
+  
+.checkoutProduct {
+  display: flex;
+  margin: 20px 0;
+}
+
+.checkoutProduct_image {
+  object-fit: contain;
+  width: 180px;
+  height: 180px;
+}
+
+.checkoutProduct_info {
+  padding: 20px;
+}
+
+.checkoutProduct_title {
+  font-size: 17px;
+  /* font-weight: 600; */
+}
+
+.checkoutProduct_price {
+  font-weight: 500;
+  margin: 3px 0px;
+}
+
+.checkoutProduct_info > button {
+  margin-top: 50px;
+  cursor: pointer;
+  background-color: #f0c14b;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  outline: none;
+  border-radius: 4px;
+  background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+}
+
+.checkoutProduct_info > button:hover {
+  box-shadow: 0 0 3pt 1pt orange;
+  background-color: darkorange;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
